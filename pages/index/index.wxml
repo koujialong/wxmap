@@ -1,0 +1,10 @@
+<!-- map.wxml -->
+<collect>
+  <map id="map" id="myMap" longitude="105.5788922300" latitude="32.21802949004" scale="14" controls="{{controls}}" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 400px;"></map>
+  <progress percent="{{percent}}" style="margin-top: 20rpx"/>
+  <view>x{{sSpeed}}</view>
+  <button style="width: 100%;height: 80rpx;background: #1296db;color: white;font-size: 40rpx;margin-top: 20rpx" bindtap="play">开始</button>
+  <button style="width: 100%;height: 80rpx;background: #1296db;color: white;font-size: 40rpx;margin-top: 20rpx" bindtap="stop">结束</button>
+  <button style="width: 100%;height: 80rpx;background: #1296db;color: white;font-size: 40rpx;margin-top: 20rpx" bindtap="addSpeed">提速</button>
+  <button style="width: 100%;height: 80rpx;background: #1296db;color: white;font-size: 40rpx;margin-top: 20rpx" bindtap="delSpeed">减速</button>
+</collect>
